@@ -71,7 +71,7 @@ const DOM = {
         tr.innerHTML = DOM.innerHTMLTransaction(transaction, index)
         tr.dataset.index = index
 
-        DOM.transactionContainer.appendChild(tr)
+        DOM.transactionContainer.insertBefore(tr, DOM.transactionContainer.firstChild)
     },
 
     innerHTMLTransaction(transaction, index) {
