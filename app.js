@@ -8,7 +8,9 @@ const Modal = {
         //Fechar modal - Rem active mod
         const element = document.querySelector('.modal-overlay')
         element.classList.remove('active')
+        Form.clearFields()
     }
+   
 }
 
 const Storage = {
@@ -125,8 +127,8 @@ const Utils = {
     },
 
     formatAmount(value) {
-        value = Number(value) * 100  
-        return value    
+        value = value * 100  
+        return Math.round(value)    
     },
 
     formatDate(date) {

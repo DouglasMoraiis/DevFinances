@@ -22,7 +22,7 @@ body {
     background: #ecf0f1;
     font-family: 'Poppins', sans-serif;
     color: #232323;
-
+    height: 100vh;    
 }
 
 #logo {
@@ -66,10 +66,12 @@ h2 {
 a {
     color: var(--green);
     text-decoration: none;
+    transition: ease-out 0.1s;
 }
 
 a:hover {
-    color: var(--light-green)
+    color: var(--light-green);
+    transition: ease-out 0.1s;
 }
 
 button {
@@ -149,9 +151,10 @@ header {
 }
 
 .card p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 3rem;
     margin-top: 1rem;
+    word-wrap: wrap;
 }
 
 .card.total {
@@ -302,6 +305,7 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 2rem;
     }
+
 
 }
 
