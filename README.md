@@ -1,2 +1,2 @@
 # DevFinances
- Projeto criado na Maratona 01 do Discover - Rocketseat.
+Aplicação web desenvolvida durante a I Maratota Discover - Rocketseat
