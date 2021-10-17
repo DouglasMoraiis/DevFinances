@@ -1,0 +1,27 @@
+/* BUTTONS */
+
+.button.new {
+    display: inline-block;
+    margin-bottom: .8rem;
+    color: var(--green)
+}
+
+.button.new:hover {
+    color: var(--green-highlight);
+}
+
+.button.cancel {
+    color: var(--red);
+    border: 1.5px var(--red) solid;
+    border-radius: .25rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+.button.cancel:hover {
+    background: var(--red);
+    color: var(--white);
+}

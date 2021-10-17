@@ -1,0 +1,247 @@
+/* GLOBAL ========== */
+:root {
+    --dark-bg: #191A19;
+    --white: #fafafa;
+    --white-modal: #f0f2f5;
+    --green: #74c947;
+    --black: #232323;
+    --black-opacity: #232323bb;
+    --green-gd-header: linear-gradient(45deg, #74c947 0%, #1ea976 100%);
+    --green-gd-card: linear-gradient(45deg, #88d162 0%, #74c947 100%);
+    --green-highlight: #88d162;
+    --green-income: #12a454;
+    --red: #e92929;
+}
+
+/* BASE */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 93.75%;
+    height: 100%;
+}
+
+body {
+    background: var(--dark-bg);
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    height: 100%;   
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* TITLES ========== */
+
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    font-weight: normal;
+}
+
+/* LINKS & BUTTONS ========== */
+
+a {
+    color: var(--green);
+    text-decoration: none;
+    transition: ease-out 0.1s;
+}
+
+a:hover {
+    color: var(--green-highlight);
+    transition: ease-out 0.1s;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: var(--green);
+    color: var(--white);
+    border-radius: .25rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background: var(--green-highlight)
+}
+
+/* ACCEBILITY TRICK*/
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
+
+}
+
+/* HEADER ============== */
+
+header {
+    background-image: var(--green-gd-header);
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+
+nav {
+    padding-top: 2rem;
+}
+
+main {
+    width: min(90vw, 850px);
+    margin: auto;
+}
+
+footer {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 4rem 0 3rem;
+    text-align: center;
+    opacity: 0.8;
+    color: var(--white);
+}
+
+/* < LOGOTIPO > */
+#logo {
+    transition: ease-out 0.1s;
+}
+
+#logo:hover {
+    opacity: .7;
+    transition: ease-out 0.1s;
+}
+
+#logo img {
+    height: 1.85rem;
+}
+
+/* BALANCE ========== */
+#balance {
+    margin-top: -7rem;
+}
+
+#balance h2 {
+    margin-top: 0;
+    color: var(--dark-bg);
+}
+
+/* CARDS ========== */
+.card {
+    background: var(--white);
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.card h3 {
+    font-weight: normal;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+    word-wrap: wrap;
+}
+
+.card.total {
+    background-image: var(--green-gd-card);
+    color: var(--white);
+}
+
+/* TRANSATION ========== */
+#transation {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* < TABLE > */
+#data-table {
+    width: 100%; 
+    border-spacing: 0 0.5rem;   
+    color: var(--black-opacity);
+}
+
+table th {
+    background: var(--white);
+    padding: 1rem 2rem;
+    text-align: left;
+    font-weight: normal;
+    color: var(--black);
+}
+
+table td {
+    background: var(--white);
+    padding: 1rem 2rem;
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+table thead tr th:last-child,
+table tbody tr td:last-child {
+    border-radius:  0 0.25rem 0.25rem 0;
+}
+
+table tbody tr {
+    opacity: 0.8;
+}
+
+table tbody tr:hover {
+    opacity: 1;
+}
+
+td.data {
+    color: var(--black-opacity);
+}
+
+td.income {
+    color: var(--green-income);
+}
+
+td.expense {
+    color: var(--red);    
+}
+
+td.icon-remove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* RESPONSIVE ========== */
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%
+    }
+
+    #balance {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+}
+
+ 

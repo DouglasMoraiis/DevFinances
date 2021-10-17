@@ -38,7 +38,6 @@ const Transaction = {
         App.reload()
     },
 
-
     incomes() {
         let sum = 0
         Transaction.all.forEach((transaction) => {
@@ -83,7 +82,7 @@ const DOM = {
             <td class="description">${transaction.description}</td>
             <td class=${CSSClass}>${amount}</td>
             <td class="data">${transaction.date}</td>
-            <td>
+            <td class="icon-remove">
                 <img onclick="Transaction.remove(${index})" src="assets/minus.svg" alt="Remover transação">
             </td>
         ` 
