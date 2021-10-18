@@ -34,14 +34,14 @@ O Discover é um treinamento inicial online com conteúdos básicos de desenvolv
     <img src="assets/banner.png" height="650"  alt="Logo DevFinances" />
 </p>
 
-## ⚙️ Funcionalidades
+## ⚙ Funcionalidades
 
-> - [x] Adicionar nova entrada/saída 
-> - [x] Remover item do histórico
-> - [ ] Modificar item cadastrado
-> - [ ] Criar conexão com banco de dados
-> - [ ] Criar cadastro de usuário
-> - [ ] Autenticação do usuário
+- [x] Adicionar nova entrada/saída 
+- [x] Remover item do histórico
+- [ ] Modificar item cadastrado
+- [ ] Criar conexão com banco de dados
+- [ ] Criar cadastro de usuário
+- [ ] Autenticação do usuário
 
 ## 🚀 Tecnologias
 
