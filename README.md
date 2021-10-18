@@ -58,4 +58,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-<p align="center">Feito com 💚 por <a href="https://www.linkedin.com/in/douglasmorais">Douglas Morais.</a></p> 
+<p align="center">Feito com 💚 por <a href="https://www.linkedin.com/in/douglasmorais">Douglas Morais</a>.</p> 
