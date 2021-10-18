@@ -1,3 +1,4 @@
+&NewLine;
 <p align="center">
   <img src="assets/logo.svg" height="40" width="230" alt="Logo DevFinances" />
 </p>
