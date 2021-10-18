@@ -9,18 +9,16 @@
 </div>
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  Projeto em melhoria . . .  🚧
 </h4>
 
 <p align="center">
- <a href="#">Sobre</a> •
- <a href="-funcionalidades">Funcionalidades</a> •
- <a href="-layout">Layout</a> • 
- <a href="-como-executar-o-projeto">Como executar</a> • 
- <a href="-tecnologias">Tecnologias</a> • 
- <a href="-contribuidores">Contribuidores</a> • 
- <a href="-autor">Autor</a> • 
- <a href="-user-content--licença">Licença</a>
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#-licença">Licença</a>
 </p>
 
 ## 💻 Sobre o projeto
@@ -36,7 +34,16 @@ O Discover é um treinamento inicial online com conteúdos básicos de desenvolv
     <img src="assets/banner.png" height="650"  alt="Logo DevFinances" />
 </p>
 
-## 🛠 Tecnologias
+## ⚙️ Funcionalidades
+
+> - [x] Adicionar nova entrada/saída 
+> - [x] Remover item do histórico
+> - [ ] Modificar item cadastrado
+> - [ ] Criar conexão com banco de dados
+> - [ ] Criar cadastro de usuário
+> - [ ] Autenticação do usuário
+
+## 🚀 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -51,5 +58,3 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
 Feito com 💚 por Douglas Morais 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasmorais)
-
----
