@@ -23,15 +23,15 @@
 
 ## 💻 Sobre o projeto
 
-♻️ DevFinances - é uma ferramenta criada para controlar os seus gastos, receitas e o balanço em geral do seu dinheiro de maneira bem simples e clara.
+💸 DevFinances - é uma ferramenta criada para controlar os seus gastos, receitas e o balanço geral do seu dinheiro de maneira bem simples e clara.
 
 Projeto desenvolvido durante a primeira edição da maratona **DISCOVER** oferecida pela [Rocketseat](https://app.rocketseat.com.br/discover).
 O Discover é um treinamento inicial online com conteúdos básicos de desenvolvimento, mas com conhecimentos essenciais para um bom programador.
 
-## 🛠 Layout
+## 🎨 Layout
 
 <p align="center">
-    <img src="assets/banner.png" height="650"  alt="Logo DevFinances" />
+    <img src="assets/banner.png" height="500"  alt="Logo DevFinances" />
 </p>
 
 ## ⚙ Funcionalidades
