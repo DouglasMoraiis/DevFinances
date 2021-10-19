@@ -41,7 +41,7 @@ O Discover é um treinamento inicial online com conteúdos básicos de desenvolv
 - [x] Remover item do histórico
 - [ ] Modificar item cadastrado
 - [ ] Criar conexão com banco de dados
-- [ ] Criar cadastro de usuário
+- [ ] Criar perfil de usuário
 - [ ] Autenticação do usuário
 
 ## 🚀 Tecnologias
