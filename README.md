@@ -54,24 +54,24 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🦸 Autor
 
-**Douglas Morais**
+Oi, me chamo **Douglas Morais**. Entre em contato comigo! 👇 
 <p align="left">
 	<a href="https://linkedin.com/in/douglasmorais" target="blank"><img align="center" 
 		     src="https://github.com/DouglasMoraiis/SocialMediaIcons/blob/8cd452968617a9483d3c5c47d90909fb283619aa/Linkedin.svg" 	
 		     alt="Link para Linkedin" height="25" width="40" 
-	/>@douglasmorais</a>
+	/> @douglasmorais</a>
 </p>
 <p>
 	<a href="https://www.instagram.com/douglas_moraiis/" target="blank"><img align="center" 
 		     src="https://github.com/DouglasMoraiis/SocialMediaIcons/blob/8cd452968617a9483d3c5c47d90909fb283619aa/Instagram.svg" 	
-		     alt="Link para Instagram" height="27.5" width="40" 
-		/>@douglas_moraiis</a>
+		     alt="Link para Instagram" height="27" width="40" 
+		/> @douglas_moraiis</a>
 </p>
 <p>
 	<a href="https://twitter.com/JDouglas_Morais" target="blank"><img align="center" 
 		     src="https://github.com/DouglasMoraiis/SocialMediaIcons/blob/8cd452968617a9483d3c5c47d90909fb283619aa/Twitter.svg" 	
-		     alt="Link para Twitter" height="25" width="40" 
-		/>@JDouglas_Morais</a>
+		     alt="Link para Twitter" height="25.2" width="40" 
+		/> @JDouglas_Morais</a>
 </p>
 
 ## 📝 Licença
