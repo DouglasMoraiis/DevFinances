@@ -32,7 +32,7 @@ O Discover é um treinamento inicial online com conteúdos básicos de desenvolv
 ## 🎨 Layout
 
 <p align="center">
-    <img src="assets/banner.png" height="500"  alt="Logo DevFinances" />
+    <img src=".github/banner.png" whidht="100%" alt="Logo DevFinances" />
 </p>
 
 ## ⚙ Funcionalidades
@@ -76,6 +76,7 @@ Oi, me chamo **Douglas Morais**. Entre em contato comigo! 👇
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto esta sobe a licença MIT. </br>
+Veja o arquivo [LICENSE](.github/LICENSE) para mais detalhes.
 
 <p align="center">Feito com 💚 por <a href="https://www.linkedin.com/in/douglasmorais">Douglas Morais</a>.</p> 
