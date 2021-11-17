@@ -32,7 +32,7 @@ O Discover é um treinamento inicial online com conteúdos básicos de desenvolv
 ## 🎨 Layout
 
 <p align="center">
-    <img src=".github/banner.png" height="100%" width="85%" alt="Logo DevFinances" />
+    <img src=".github/banner.png" height="90%" width="90%" alt="Logo DevFinances" />
 </p>
 
 ## ⚙ Funcionalidades
